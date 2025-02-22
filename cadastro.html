@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>PetTodos: Cadastro de Clientes</title>
+    </head>
+    <body class="pagina2" id="pagina2">
+        <div class="formulario" id="formulario">
+            <form action = "post" method="POST"> 
+            <section>
+                <p>
+                <h1>Cadastramento de clientes</h1>
+                <h2>Dados do usuário:</h2>
+                </p>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type ="text" id = "nome" placeholder="Digite o seu nome">
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" placeholder="Digite o seu e-mail">
+                </p>
+                <p>
+                    <labe for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone"
+                    placeholder="Digite número de contato">
+                </p>
+            </section> 
+            <section>
+                <div>
+                <h2>Endereço:</h2>
+                <p>
+                <h3>Selecione a sua cidade:</h3>
+                <label for="cidade">Cidade:</label>
+                <select id="cidade">
+                    <option>Bom Despacho</option>
+                    <option>Itabira</option>
+                </select>
+                </p>
+                <p>
+                    <label for="bairro">Bairro:</label>
+                    <input type ="text" id = "bairro" placeholder="Digite o bairro">
+                </p>
+                <p>
+                    <label for="rua">Rua:</label>
+                    <input type ="text" id = "rua" placeholder="Digite a rua">
+                </p>
+                <p>
+                    <label for="numero">Número:</label>
+                    <input type ="number" id = "numero" placeholder="Digite o numero da residência">
+                </p>
+                <p>
+                    <label for="cep">CEP:</label>
+                    <input type ="number" id = "cep" placeholder="Digite o seu CEP">
+                </p>
+                </p>
+                    <button type="submit" id="login"><a href="login.html">Cadastrar</a></button>
+                </p>
+                </div>
+            </section>
+            </form>
+        </div>
+    </body>
+</html>
